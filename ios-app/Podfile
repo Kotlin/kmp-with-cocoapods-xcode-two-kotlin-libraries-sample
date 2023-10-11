@@ -1,5 +1,5 @@
 use_frameworks!
-platform :ios, '13.5'
+platform :ios, '15.0'
 
 target 'ios-app' do
    pod 'firstKotlinPod', :path => '../firstKotlinPod'

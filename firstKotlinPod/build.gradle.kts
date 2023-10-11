@@ -6,14 +6,10 @@ plugins {
 group = "org.jetbrains.kotlin.sample"
 version = "1.0-SNAPSHOT"
 
-repositories {
-    mavenLocal()
-    jcenter()
-    maven { setUrl("https://dl.bintray.com/kotlin/kotlinx.html/") }
-}
-
 kotlin {
-    ios()
+    iosArm64()
+    iosSimulatorArm64()
+    iosX64()
 
     cocoapods {
         summary = "Second Kotlin pod"

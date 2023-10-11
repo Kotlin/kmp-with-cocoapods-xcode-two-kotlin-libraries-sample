@@ -1,16 +1,21 @@
 pluginManagement {
     repositories {
-        mavenLocal()
-        jcenter()
+        google()
         gradlePluginPortal()
+        mavenCentral()
     }
 }
 
-enableFeaturePreview("GRADLE_METADATA")
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
 
 rootProject.name = "xcode-two-kotlin-pods-sample"
 
 include(
-        ":firstKotlinPod",
-        ":secondKotlinPod"
+    ":firstKotlinPod",
+    ":secondKotlinPod"
 )
