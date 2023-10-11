@@ -1,5 +1,9 @@
+@file:OptIn(ExperimentalForeignApi::class, BetaInteropApi::class)
+
 import cocoapods.AFNetworking.AFHTTPResponseSerializer
 import cocoapods.AFNetworking.AFHTTPSessionManager
+import kotlinx.cinterop.BetaInteropApi
+import kotlinx.cinterop.ExperimentalForeignApi
 import platform.Foundation.*
 import platform.UIKit.NSDocumentTypeDocumentAttribute
 import platform.UIKit.NSHTMLTextDocumentType
