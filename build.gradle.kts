@@ -1,6 +1,6 @@
 plugins {
-    kotlin("multiplatform").version("1.9.20-RC")
-    kotlin("native.cocoapods").version("1.9.20-RC")
+    kotlin("multiplatform").version("2.0.0")
+    kotlin("native.cocoapods").version("2.0.0")
 }
 
 group = "org.example"
